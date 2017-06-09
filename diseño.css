@@ -1,0 +1,129 @@
+@charset "utf-8";
+*{ 
+	    padding: 0px;
+	  }
+	  @font-face{
+		  font-family: "nexa-rust";
+		  src: url(nexa-rust/NexaRustSans-Black.otf) format("otf");
+	  }
+	  #main{
+		 width: 500px;
+		 height: 300px;
+		 margin-left: 23%;
+		 margin-top: 10%;
+		 border: solid 3px #EBF815;
+		  
+	  }
+	  #ti{
+		  height: 100px;
+		  width: 400px;
+		  margin-left: 9%;
+		  font-size: 34px;
+		  text-align: center;
+		 /* background: hsla(222,100%,10%);
+		  background: hsl(222,80%,30%);
+		  background: hsl(222,60%,50%);*/
+		  text-shadow: 
+			  1px 1px 0px rgba(230,230,230,1),
+		      2px 2px 0px rgba(200,200,200,1),
+		       3px 3px 0px rgba(180,180,180,1),
+		       4px 4px 0px rgba(160,160,220,1),
+			  5px 5px 0px rgba(0,0,0,1),
+			  8px 8px 20px rgba(0,0,0,0.5);
+		  /*box-shadow: 13px 11px 13px rgba(0,0,0,0.5),-13px -11px 13px rgba(0,0,0,0.5);
+		  
+		  border-top-left-radius: 20px;
+		  border-bottom-right-radius: 20px;*/
+			  
+		  
+		  
+	  }
+	  canvas{
+		  
+		  border: solid;
+		  width: 1000px;
+		  height: 500px;
+		  margin-left: 20%;
+		  margin-top: 5%;
+		  
+		 
+	  }
+	
+	  .hidden{
+		  visibility: hidden;
+		 -webkit-transition: opacity 4s;
+		  z-index: 0;
+		  opacity: 0;
+	  }
+	  .visible{
+		  visibility: visible;
+		  -webkit-transition: opacity 4s;
+		  z-index: 1;
+		  opacity: 1;
+	  }
+	  .frame{
+		  position: absolute;
+		  width: 808px;
+		  height: 600px;
+		  font-family: "nexa-rust";
+		  
+		  color: white;
+		  text-shadow: 0px 0px 20px #00FF00;
+		  -webkit-user-select:none;
+		 
+	  }
+	  .frame button{
+		  font-family: "nexa-rust";
+		  width: 400px;
+		  height: 60px;
+		  text-shadow: 
+			  1px 1px 0px rgba(230,230,230,1),
+		      2px 2px 0px rgba(200,200,200,1),
+		       3px 3px 0px rgba(180,180,180,1),
+		       4px 4px 0px rgba(160,160,220,1),
+			  5px 5px 0px rgba(0,0,0,1),
+			  8px 8px 20px rgba(0,0,0,0.5);
+		  font-size: 24px;
+		  color: #EDB12F;
+		  margin: 0px;
+		  padding: 10px;
+		  background: none;
+		  border: 1px solid #dedede;
+		  border-top-left-radius: 13px;
+		  border-bottom-right-radius: 13px;
+		  display:  inline-block;
+		  text-decoration: none;
+		  border-color: #8dc5da #76b7cf #63abc7;
+		  box-shadow: 13px 11px 13px rgba(222,222,220,0.5),-13px -11px 13px rgba(232,232,232,0.5);
+		  
+	  }
+	  .frame button:hover{
+		  border-radius: 13px;
+		  text-shadow: 
+			  1px 1px 0px rgba(230,230,230,1),
+		      2px 2px 0px rgba(200,200,200,1),
+		      3px 3px 0px rgba(180,180,180,1),
+		      4px 4px 0px rgba(160,160,220,1),
+			  5px 5px 0px rgba(0,0,0,1),
+			  8px 8px 20px rgba(0,0,0,0.5) ;
+		  color: #7BB30D;	
+		  
+	  }
+	  .frame button:active{
+		  text-shadow: 0px 0px 20px #1FE5DC;
+		 
+	  }
+	  body{
+		  margin: 0 auto;
+
+		  
+		  text-align: center;
+		  background-image: url(esq.jpg);
+		  background-repeat: no-repeat;
+		  background-size: cover;
+		  
+	  }
+
+	  /* CSS Document */
+
+
